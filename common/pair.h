@@ -1,6 +1,5 @@
-// common.h
-#ifndef COMMON_H
-#define COMMON_H
+#ifndef PAIR_H
+#define PAIR_H
 
 #include <bits/stdc++.h>
 
@@ -29,7 +28,11 @@ public:
         }
     };
 
+    bool operator<(const Pair& other) const {
+        return (y < other.y) || (y == other.y && x < other.x);
+    }
+
     friend struct Hash;
 };
 
-#endif // COMMON_H
+#endif // PAIR_H

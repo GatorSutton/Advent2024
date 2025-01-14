@@ -5,7 +5,7 @@
 #include <bits/stdc++.h>
 #include <string>
 #include <cmath>
-#include "../common/common.h"
+#include "../common/pair.h"
 
 
 using namespace std;
